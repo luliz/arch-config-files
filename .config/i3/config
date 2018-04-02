@@ -22,8 +22,6 @@ set $ws8 "8:"
 set $ws9 "9:"
 set $ws10 "10:"
 
-assign [class="TelegramDesktop"] $ws4
-
 # Font for window titles. Will also be used by the bar unless a different 
 # is used in the bar {} block below.
 #font pango:Terminus 11px
@@ -173,8 +171,7 @@ bar {
   strip_workspace_numbers yes
   colors {
     background #F1F2F6
-    statusline #788491
-    separator #51c4d4
+    statusline #788491 separator #51c4d4
     focused_workspace  #F1F2F6 #F1F2F6 #4FC0E8
     active_workspace   #F1F2F6 #F1F2F6 #4FC0E8
     inactive_workspace #F1F2F6 #F1F2F6 #C1D1E0
